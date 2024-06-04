@@ -1,0 +1,61 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 350px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+}
+
+.result, textarea {
+    background-color: #e8e8e8;
+    border: 1px solid #d1d1d1;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.result p, textarea {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.highlight {
+    color: #d54e21; /* A bright color for highlighting mismatches */
+    font-weight: bold;
+}
+
+button, input[type="submit"] {
+    background-color: #5c67f2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #4a54e1;
+}

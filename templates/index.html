@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sequence Alignment</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h1>Sequence Alignment</h1>
+    <form method="post">
+        <label for="seq1">Sequence 1:</label><br>
+        <textarea id="seq1" name="seq1" rows="4" cols="50">{{ form.seq1.data }}</textarea><br>
+        <label for="seq2">Sequence 2:</label><br>
+        <textarea id="seq2" name="seq2" rows="4" cols="50">{{ form.seq2.data }}</textarea><br>
+        <input type="submit" value="Align">
+    </form>
+</body>
+</html>
